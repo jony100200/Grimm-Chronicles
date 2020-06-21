@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a64e5b0e436d4bed9780211ae245f7b, type: 3}
+  m_Name: Cinderella1_Data
+  m_EditorClassIdentifier: 
+  dataName: Cinderella1
+  dragonBonesJSON: {fileID: 4900000, guid: 38a02d13df3e7244e80789e058f724bb, type: 3}
+  textureAtlas:
+  - textureAtlasJSON: {fileID: 4900000, guid: 5773df0531e23d64f9977958bc4968c7, type: 3}
+    texture: {fileID: 2800000, guid: ac276dd4a00efcc499e245cd0f7a85bc, type: 3}
+    material: {fileID: 2100000, guid: 463c252676b83c940bf32ec1c55922ee, type: 2}
+    uiMaterial: {fileID: 0}
