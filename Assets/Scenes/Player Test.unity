@@ -375,7 +375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &361525162
 Transform:
   m_ObjectHideFlags: 0
@@ -384,7 +384,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 361525161}
   m_LocalRotation: {x: 0, y: 0, z: -0.99998295, w: -0.005842219}
-  m_LocalPosition: {x: 0, y: 0, z: -0.014}
+  m_LocalPosition: {x: -9.720078, y: 8.147319, z: -0.014}
   m_LocalScale: {x: 5.2500005, y: 5.2500005, z: 1}
   m_Children: []
   m_Father: {fileID: 1193492529}
@@ -416,7 +416,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 463c252676b83c940bf32ec1c55922ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -853,7 +853,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &766902961
 Transform:
   m_ObjectHideFlags: 0
@@ -862,7 +862,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766902960}
   m_LocalRotation: {x: 0, y: 0, z: -0.9999829, w: -0.005846749}
-  m_LocalPosition: {x: 0, y: 0, z: -0.013}
+  m_LocalPosition: {x: -8.4985, y: 8.051105, z: -0.013}
   m_LocalScale: {x: 2.6, y: 2.6, z: 1}
   m_Children: []
   m_Father: {fileID: 1193492529}
@@ -894,7 +894,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 463c252676b83c940bf32ec1c55922ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1165,7 +1165,6 @@ GameObject:
   - component: {fileID: 1193492527}
   - component: {fileID: 1193492531}
   - component: {fileID: 1193492530}
-  - component: {fileID: 1193492533}
   - component: {fileID: 1193492532}
   m_Layer: 0
   m_Name: Player
@@ -1226,7 +1225,7 @@ MonoBehaviour:
   armatureName: Armature
   isUGUI: 0
   debugDraw: 0
-  animationName: Idle
+  animationName: 
   _playTimes: 0
   _timeScale: 1
   _sortingMode: 0
@@ -1330,31 +1329,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1193492526}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a64a22e5631a7b542a455b3b453c09a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 834c5a772289f9d4ca61951b4d758c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  desiredDirection: {x: 0, y: 0}
-  duration: 0
-  time: 0
-  speed: 0
-  _jumpSpeed: 0
---- !u!114 &1193492533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1193492526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a64a22e5631a7b542a455b3b453c09a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  desiredDirection: {x: 0, y: 0}
-  duration: 2
-  time: 0
-  speed: 2
-  _jumpSpeed: 0
+  _moveSpeed: 1.5
 --- !u!1 &1286070963
 GameObject:
   m_ObjectHideFlags: 1
@@ -1621,8 +1599,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf209a5bba907b469e03c01aef2dad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 6
-  y: 5
 --- !u!4 &1596651127
 Transform:
   m_ObjectHideFlags: 0
