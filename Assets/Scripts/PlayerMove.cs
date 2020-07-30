@@ -40,7 +40,7 @@ public class PlayerMove : MonoBehaviour
         {
             myBody.velocity = new Vector2(0f, myBody.velocity.y);
             playerAnimations.animation.Play("Idle");
-            playerAnimations.animation.Stop("walk");
+            //playerAnimations.animation.Stop("walk");
         }
     }
 }
